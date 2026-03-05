@@ -197,6 +197,9 @@ nav {
   transform: translateY(10px);
   transition: all 0.3s ease;
   z-index: 100;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .dropdown-menu li {
