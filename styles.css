@@ -177,9 +177,11 @@ nav {
 }
 
 .nav-links li.has-dropdown > a::after {
-  content: " ▼";
+  content: "▼";
   font-size: 8px;
-  margin-left: 5px;
+  margin-left: 6px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .dropdown-menu {
