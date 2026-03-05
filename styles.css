@@ -1025,6 +1025,18 @@ nav {
   border-bottom: 1px solid var(--border-dark);
   display: flex;
   gap: 20px;
+  align-items: flex-start;
+}
+
+.contact-details li i {
+  font-size: 24px;
+  color: var(--accent-blue);
+  min-width: 24px;
+  margin-top: 3px;
+}
+
+.contact-details li div {
+  flex: 1;
 }
 
 .contact-details li span {
@@ -1033,7 +1045,8 @@ nav {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: var(--accent-blue);
-  min-width: 120px;
+  display: block;
+  margin-bottom: 8px;
 }
 
 .contact-details li p {
@@ -1169,6 +1182,28 @@ footer {
 
 .footer-column ul li a:hover {
   color: var(--accent-blue);
+}
+
+.footer-contact-list li a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  color: #aaaaaa;
+}
+
+.footer-contact-list li a i {
+  font-size: 16px;
+  color: var(--accent-blue);
+  min-width: 16px;
+}
+
+.footer-contact-list li a:hover {
+  color: var(--accent-blue);
+}
+
+.footer-contact-list li a:hover i {
+  color: #ffffff;
 }
 
 .footer-bottom {
