@@ -133,16 +133,6 @@ nav {
   font-weight: 700;
   letter-spacing: 3px;
   color: var(--text-dark);
-  display: inline-block;
-  height: 40px;
-  display: flex;
-  align-items: center;
-}
-
-.logo img {
-  height: 100%;
-  width: auto;
-  max-width: 180px;
 }
 
 .logo span {
@@ -280,6 +270,13 @@ nav {
   line-height: 1.1;
   margin-bottom: 30px;
   letter-spacing: -1px;
+}
+
+.hero-logo {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 40px;
+  display: block;
 }
 
 .hero h1 .highlight {
@@ -1127,16 +1124,8 @@ footer {
 
 .footer-brand .logo {
   margin-bottom: 20px;
-  display: inline-flex;
+  display: inline-block;
   color: var(--text-light);
-  align-items: center;
-  height: 40px;
-}
-
-.footer-brand .logo img {
-  height: 100%;
-  width: auto;
-  max-width: 180px;
 }
 
 .footer-brand p {
