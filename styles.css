@@ -445,8 +445,8 @@ nav {
   background-image:
     linear-gradient(
       180deg,
-      rgba(10, 10, 10, 0.9) 0%,
-      rgba(10, 10, 10, 0.8) 100%
+      rgba(10, 10, 10, 0.5) 0%,
+      rgba(10, 10, 10, 0.4) 100%
     ),
     url("images/pexels-suzy-hazelwood-5010877-scaled.jpg") !important;
   background-size: cover !important;
@@ -461,22 +461,158 @@ nav {
   margin-bottom: 20px;
   letter-spacing: -1px;
   color: var(--text-light);
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
 }
 
 .page-header .page-subtitle {
   font-size: 18px;
-  color: #bbbbbb;
+  color: #ffffff;
+  font-weight: 600;
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.8;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--accent-blue);
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+}
+
+.page-header .highlight {
+  color: var(--accent-blue);
+}
+
+.newspaper-header .highlight {
+  color: #7ab4e0;
+}
+
+.newspaper-header .page-subtitle {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.material-handling-header .highlight {
+  color: #8ac0e6;
+}
+
+.material-handling-header .page-subtitle {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.mirasert-header .highlight {
+  color: #99c8f0;
+}
+
+.mirapackage-header .highlight {
+  color: #99c8f0;
+}
+
+.mirapackage-header .page-subtitle {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.mirasert-header .page-subtitle {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.mirapackage-header {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.6) 0%,
+      rgba(10, 10, 10, 0.5) 100%
+    ),
+    url("images/Untitled design.jpg") !important;
+  background-size: 80% 80% !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-repeat: repeat !important;
+}
+
+.mirapackage-header .section-title {
+  color: #99c8f0;
+}
+
+.miralizer-header {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.6) 0%,
+      rgba(10, 10, 10, 0.5) 100%
+    ),
+    url("images/20240829_161203.jpg") !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+.miralizer-header .section-title {
+  color: #99c8f0;
+}
+
+.miralizer-header .highlight {
+  color: #99c8f0;
+}
+
+.miralizer-header .page-subtitle {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.miralabel-header {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.6) 0%,
+      rgba(10, 10, 10, 0.5) 100%
+    ),
+    url("images/2023-06-27 21.47.05.jpg") !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+.miralabel-header .section-title {
+  color: #99c8f0;
+}
+
+.miralabel-header .highlight {
+  color: #99c8f0;
+}
+
+.miralabel-header .page-subtitle {
+  color: #eeeeee;
+  font-weight: 600;
+}
+
+.page-header .page-subtitle {
+  font-size: 18px;
+  color: #ffffff;
+  font-weight: 600;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.8;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .material-handling-header {
   background-image:
     linear-gradient(
       180deg,
-      rgba(10, 10, 10, 0.9) 0%,
-      rgba(10, 10, 10, 0.8) 100%
+      rgba(10, 10, 10, 0.5) 0%,
+      rgba(10, 10, 10, 0.4) 100%
     ),
     url("images/solutions-header.jpg") !important;
   background-size: cover !important;
@@ -489,8 +625,8 @@ nav {
   background-image:
     linear-gradient(
       180deg,
-      rgba(10, 10, 10, 0.9) 0%,
-      rgba(10, 10, 10, 0.8) 100%
+      rgba(10, 10, 10, 0.6) 0%,
+      rgba(10, 10, 10, 0.5) 100%
     ),
     url("images/Picture4.png") !important;
   background-size: cover !important;
@@ -535,6 +671,23 @@ nav {
   color: var(--accent-blue);
   margin-bottom: 20px;
   text-align: center;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.newspaper-header .section-title {
+  color: #7ab4e0;
+}
+
+.material-handling-header .section-title {
+  color: #8ac0e6;
+}
+
+.mirasert-header .section-title {
+  color: #99c8f0;
+}
+
+.mirapackage-header .section-title {
+  color: #99c8f0;
 }
 
 .section-title.centered {
@@ -872,6 +1025,54 @@ nav {
 
 .mirasert-visual::before,
 .mirasert-visual::after {
+  display: none !important;
+}
+
+.mirapackage-visual {
+  background-image: url("images/Picture2.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.mirapackage-visual::before,
+.mirapackage-visual::after {
+  display: none !important;
+}
+
+.miralizer-visual {
+  background-image: url("images/20240829_161039.jpg") !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.miralizer-visual::before,
+.miralizer-visual::after {
+  display: none !important;
+}
+
+.miralabel-visual {
+  background-image: url("images/2023-06-27 21.48.19.jpg") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.miralabel-visual::before,
+.miralabel-visual::after {
   display: none !important;
 }
 
@@ -1476,6 +1677,11 @@ footer {
 
   .page-header {
     padding: 140px 0 60px;
+  }
+
+  .mirapackage-header {
+    background-size: 120% 120% !important;
+    background-repeat: repeat !important;
   }
 
   .page-header h1 {
