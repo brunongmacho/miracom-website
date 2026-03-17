@@ -635,6 +635,20 @@ nav {
   background-repeat: no-repeat !important;
 }
 
+.mirastore-header {
+  background-image:
+    linear-gradient(
+      180deg,
+      rgba(10, 10, 10, 0.6) 0%,
+      rgba(10, 10, 10, 0.5) 100%
+    ),
+    url("images/3.png") !important;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
 /* Pain Points Section */
 .pain-section {
   padding: 100px 0;
