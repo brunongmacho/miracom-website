@@ -1042,6 +1042,22 @@ nav {
   display: none !important;
 }
 
+.mirastore-visual {
+  background-image: url("images/Picture2.png") !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  width: 100% !important;
+  height: 300px !important;
+}
+
+.mirastore-visual::before,
+.mirastore-visual::after {
+  display: none !important;
+}
+
 .mirapackage-visual {
   background-image: url("images/Picture2.png") !important;
   background-size: cover !important;
