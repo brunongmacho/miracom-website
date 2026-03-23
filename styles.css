@@ -388,6 +388,65 @@ nav {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
+.pathway-card.pathway-newspaper {
+  background-image: url("images/pexels-suzy-hazelwood-5010877-scaled.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pathway-card.pathway-newspaper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0.95) 0%, rgba(10, 10, 10, 0.9) 100%);
+  z-index: 1;
+}
+
+.pathway-card.pathway-material::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0.92) 0%, rgba(10, 10, 10, 0.85) 100%);
+  z-index: 1;
+}
+
+.pathway-card.pathway-newspaper h2,
+.pathway-card.pathway-newspaper p,
+.pathway-card.pathway-newspaper .cta-btn {
+  position: relative;
+  z-index: 2;
+}
+
+.pathway-card.pathway-material {
+  background-image: url("images/solutions-header.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.pathway-card.pathway-material::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(10, 10, 10, 0.85) 0%, rgba(10, 10, 10, 0.7) 100%);
+  z-index: 1;
+}
+
+.pathway-card.pathway-material h2,
+.pathway-card.pathway-material p,
+.pathway-card.pathway-material .cta-btn {
+  position: relative;
+  z-index: 2;
+}
+
 .pathway-card::before {
   content: "";
   position: absolute;
@@ -419,11 +478,23 @@ nav {
   text-align: center;
 }
 
+.pathway-card.pathway-newspaper h2,
+.pathway-card.pathway-material h2 {
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .pathway-card .pathway-subtext {
   font-size: 15px;
   color: var(--text-gray);
   margin-bottom: 40px;
   line-height: 1.8;
+}
+
+.pathway-card.pathway-newspaper .pathway-subtext,
+.pathway-card.pathway-material .pathway-subtext {
+  color: #dddddd;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
 }
 
 .pathway-card .cta-btn {
