@@ -37,8 +37,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (typedTextElement) {
         const phrases = [
             'Losing Control?',
-            'Losing Money?',
-            'Running Blind?',
+            'Bleeding Money?',
+            'Lacking Visibility?',
             'Falling Behind?'
         ];
         let phraseIndex = 0;
