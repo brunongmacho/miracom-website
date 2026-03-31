@@ -793,16 +793,6 @@ nav {
     justify-content: center;
     text-align: center;
   }
-
-  .pain-section.newspaper-pain .pain-item h3 {
-    font-size: 16px;
-    margin-bottom: 12px;
-  }
-
-  .pain-section.newspaper-pain .pain-item p {
-    font-size: 13px;
-    line-height: 1.6;
-  }
 }
 
 .pain-section.dark {
