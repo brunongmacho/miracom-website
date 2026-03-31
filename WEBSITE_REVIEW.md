@@ -75,7 +75,7 @@ The Miracom website consists of 10 HTML pages with shared CSS/JS files. It's a m
 |----------|-------|--------|
 | 1 | Fix CSS duplicate braces bug | ✅ DONE |
 | 2 | Add contact form functionality | Pending |
-| 3 | Add `rel="noopener noreferrer"` to external links | Pending |
+| 3 | Add `rel="noopener noreferrer"` to external links | ✅ DONE |
 | 4 | Add favicon | Pending |
 | 5 | Fix mirapackage.html header text | ✅ DONE |
 | 6 | Refactor duplicated nav/footer (optional) | Pending |
