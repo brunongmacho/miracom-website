@@ -1945,6 +1945,10 @@ footer::before {
     padding: 25px;
   }
 
+  .pain-item-image {
+    order: -1;
+  }
+
   .page-header h1 {
     font-size: clamp(28px, 4vw, 44px);
   }
