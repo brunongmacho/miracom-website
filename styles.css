@@ -780,27 +780,29 @@ nav {
   background: var(--light-bg);
 }
 
-.pain-section.newspaper-pain .pain-grid {
-  grid-template-columns: repeat(3, 1fr);
-}
+@media (min-width: 769px) {
+  .pain-section.newspaper-pain .pain-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 
-.pain-section.newspaper-pain .pain-item {
-  min-height: 280px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
+  .pain-section.newspaper-pain .pain-item {
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-.pain-section.newspaper-pain .pain-item h3 {
-  font-size: 16px;
-  margin-bottom: 12px;
-}
+  .pain-section.newspaper-pain .pain-item h3 {
+    font-size: 16px;
+    margin-bottom: 12px;
+  }
 
-.pain-section.newspaper-pain .pain-item p {
-  font-size: 13px;
-  line-height: 1.6;
+  .pain-section.newspaper-pain .pain-item p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
 }
 
 .pain-section.dark {
@@ -1965,10 +1967,6 @@ footer::before {
 
   .pain-item {
     padding: 25px;
-  }
-
-  .pain-section.newspaper-pain .pain-item {
-    min-height: auto;
   }
 
   .pain-item-image {
