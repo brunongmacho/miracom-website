@@ -21,17 +21,15 @@ The Miracom website consists of 10 HTML pages with shared CSS/JS files. It's a m
 - Responsive: image card appears first on mobile
 
 ### Content Updates Applied
-- Updated typing animation text
-- Removed "Find Your Problem" button
-- Updated pathway card subtexts
+- Updated typing animation text (Losing Control → Bleeding Money → Lacking Visibility → Falling Behind)
+- Removed "Find Your Problem" button from hero
+- Updated pathway card subtexts (Newspaper & Material Handling)
 - Changed "See What's Going Wrong" to "SEE HOW WE CAN HELP"
-- Made entire pathway cards clickable
+- Made entire pathway cards clickable with hover effects
 - Updated newspaper page pain points (Managing Multiple Publications)
-- Updated MiraPACKAGE subtitle and description
-- Removed "Four Pillars" title from newspaper page
-- Added image placeholder for Insert Variants with responsive ordering
-- Removed "Execution Layer" from navigation (all pages now fixed)
-- Fixed mirastore.html nav to show "Inserter Control"
+- Added image placeholder for Insert Variants with responsive ordering (first on mobile)
+- Fixed nav dropdown order to match newspaper pillars: Inserter Control → Inline Addressing → Production Intelligence → Planning & Coordination
+- Fixed font consistency across all pages (pain points, buttons, headings)
 
 ### Technical
 - SEO meta tags (title, description, og tags, twitter cards, canonical URLs)
@@ -40,7 +38,7 @@ The Miracom website consists of 10 HTML pages with shared CSS/JS files. It's a m
 - Google Fonts (Montserrat) and Font Awesome integrated
 - CSS variables for consistent theming
 - Fixed duplicate CSS braces
-- Added rel="noopener noreferrer" to all external links
+- Added rel="noopener noreferrer" to all external links (22 links across 10 files)
 
 ### Avada Builder / WordPress Migration Ready
 - ✅ No inline styles (all moved to CSS classes)
@@ -79,11 +77,19 @@ The Miracom website consists of 10 HTML pages with shared CSS/JS files. It's a m
 3. contact.html - Contact page
 4. newspaper.html - Newspaper Operations landing
 5. material-handling.html - Material Handling landing
-6. mirasert.html - MiraSERT product page
-7. mirapackage.html - MiraPACKAGE product page
-8. miralizer.html - MiraLIZER product page
-9. miralabel.html - MiraLABEL product page
+6. mirasert.html - MiraSERT product page (01)
+7. mirapackage.html - MiraPACKAGE product page (04)
+8. miralizer.html - MiraLIZER product page (03)
+9. miralabel.html - MiraLABEL product page (02)
 10. mirastore.html - MiraSTORE product page
+
+---
+
+## Nav Dropdown Order (Matches Newspaper Pillars)
+1. Inserter Control (mirasert.html)
+2. Inline Addressing (miralabel.html)
+3. Production Intelligence (miralizer.html)
+4. Planning & Coordination (mirapackage.html)
 
 ---
 
@@ -105,6 +111,8 @@ The Miracom website consists of 10 HTML pages with shared CSS/JS files. It's a m
 | 4 | Add favicon | ⏸ WordPress (customizer) |
 | 5 | Fix mirapackage.html header text | ✅ DONE |
 | 6 | Make Avada builder friendly | ✅ DONE |
+| 7 | Font consistency across pages | ✅ DONE |
+| 8 | Nav dropdown order matching pillars | ✅ DONE |
 
 ---
 
