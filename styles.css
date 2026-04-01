@@ -1013,6 +1013,16 @@ nav {
   border-radius: 16px;
 }
 
+.pillar-card.placeholder-card {
+  background: var(--light-secondary);
+  border-style: dashed;
+  opacity: 0.7;
+}
+
+.pillar-card.placeholder-card .learn-more {
+  display: none;
+}
+
 .pillar-card:hover {
   border-color: var(--accent-blue);
   transform: translateY(-8px);
