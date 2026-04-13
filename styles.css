@@ -795,7 +795,7 @@ nav {
       rgba(10, 10, 10, 0.6) 0%,
       rgba(10, 10, 10, 0.5) 100%
     ),
-    url("images/PLACEHOLDER-miradock-header.jpg") !important;
+    url("images/161.jpg") !important;
   background-size: cover !important;
   background-position: center top !important;
   background-attachment: fixed !important;
@@ -1322,7 +1322,7 @@ nav {
 }
 
 .miradock-visual {
-  background-image: url("images/PLACEHOLDER-miradock-visual.jpg") !important;
+  background-image: url("images/161.jpg") !important;
   background-size: cover !important;
   background-position: center !important;
   background-repeat: no-repeat !important;
