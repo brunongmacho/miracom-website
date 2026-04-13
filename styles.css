@@ -1324,7 +1324,7 @@ nav {
 .miradock-visual {
   background-image: url("images/161.jpg") !important;
   background-size: cover !important;
-  background-position: center !important;
+  background-position: bottom !important;
   background-repeat: no-repeat !important;
   border-radius: 16px;
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
