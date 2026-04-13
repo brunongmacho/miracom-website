@@ -809,9 +809,9 @@ nav {
       rgba(10, 10, 10, 0.6) 0%,
       rgba(10, 10, 10, 0.5) 100%
     ),
-    url("images/PLACEHOLDER-mirasort-header.jpg") !important;
+    url("images/boxes-conveyor-belt-warehouse_771335-51981.jpg") !important;
   background-size: cover !important;
-  background-position: center top !important;
+  background-position: bottom !important;
   background-attachment: fixed !important;
   background-repeat: no-repeat !important;
 }
